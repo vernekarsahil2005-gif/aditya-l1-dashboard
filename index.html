@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aditya-L1 Solar Flare Nowcasting</title>
+    <link rel="stylesheet" href="static/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&family=Instrument+Serif:ital,wght@0,400;1,400&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="grid-overlay" aria-hidden="true"></div>
+    <nav class="nav">
+      <div class="nav-logo"><span class="logo-bracket">(</span>ADITYA-L1 AI<span class="logo-bracket">)</span></div>
+      <div class="nav-links">
+        <a href="#demo">Demo</a>
+      </div>
+    </nav>
+    <section class="hero" id="hero">
+      <div class="hero-tag">
+        <span class="dot"></span>
+        <span>AI-POWERED · MULTIMODAL · NOWCASTING</span>
+      </div>
+      <h1 class="hero-title">
+        <span class="line-one">ADITYA-L1</span>
+        <span class="line-two">SOLAR FLARE<br />NOWCASTING</span>
+      </h1>
+      <p class="hero-sub">
+        Real-time Soft and Hard X-ray fusion.<br />
+        Detecting the Neupert Effect to predict M/X-class flares before radiation hits Earth.
+      </p>
+      <div class="hero-cta-row">
+        <!-- Links directly to the local Streamlit dashboard -->
+        <a href="http://localhost:8501" target="_blank" rel="noopener noreferrer" class="btn-primary" id="cta-button">
+          <span>Launch Mission Control</span>
+        </a>
+      </div>
+      <!-- Space Metrics Strip -->
+      <div class="metrics-strip">
+        <div class="metric">
+          <span class="metric-val">1<span class="unit">s</span></span>
+          <span class="metric-label">Telemetry Sync</span>
+        </div>
+        <div class="metric-divider"></div>
+        <div class="metric">
+          <span class="metric-val">2</span>
+          <span class="metric-label">ISRO Payloads Fused</span>
+        </div>
+        <div class="metric-divider"></div>
+        <div class="metric">
+          <span class="metric-val">0.92</span>
+          <span class="metric-label">TSS Score</span>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

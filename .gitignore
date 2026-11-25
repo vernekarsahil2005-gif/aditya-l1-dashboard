@@ -1,0 +1,6 @@
+data/raw/
+*.fits
+*.lc.gz
+*.zip
+venv/
+__pycache__/
